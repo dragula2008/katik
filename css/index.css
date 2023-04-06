@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+}
+.greeting{
+    margin: 30px;
+    text-align: center;
+}
+.opsibangun{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opsibangun > a {
+    text-decoration: none;
+}
+.segitiga-menu{
+    background-color: green;
+    color: white;
+    padding: 4px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0;
+}
+.card{
+    border: 1px blueviolet solid;
+    padding: 0px;
+    box-shadow: 4px 5px 10px 0px rgba(0,0,0,0.49);
+}
+.card-title{
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+}
+.notes{
+    padding: 20px;
+    margin: 0;
+}
+.jajargenjang-menu{
+    padding: 4px;
+    margin: 0;
+}
+.rumus{
+    text-align: center;
+    margin: 0;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+ p{
+    margin: 0;
+ }
+ input{
+    margin: 0;
+ }
+
+ h1{
+    margin: 0;
+ }
+ .form-hitung{
+    margin: 0;
+ }
+ center{
+    margin: 0;
+ }
