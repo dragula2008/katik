@@ -20,10 +20,19 @@
 }
 .opsibangun > a {
     text-decoration: none;
+    color: green;
+    margin: 0;
 }
 .segitiga-menu{
-    background-color: green;
-    color: white;
+    color: green;
+    padding: 4px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    margin: 0;
+}
+.jajargenjang-menu{
+    color: green;
     padding: 4px 0px;
     width: 100%;
     text-align: center;
@@ -46,10 +55,6 @@
     padding: 20px;
     margin: 0;
 }
-.jajargenjang-menu{
-    padding: 4px;
-    margin: 0;
-}
 .rumus{
     text-align: center;
     margin: 0;
@@ -58,6 +63,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .form-input{
     display: flex;
@@ -66,6 +73,7 @@
     justify-content: center;
     align-items: center;
     padding: 5px;
+    margin: 0;
   }
  p{
     margin: 0;
@@ -73,13 +81,28 @@
  input{
     margin: 0;
  }
+ button{
+    margin: 0;
+ }
 
  h1{
     margin: 0;
+ }
+ h5{
+    margin: 0;
+    text-align: center;
  }
  .form-hitung{
     margin: 0;
  }
  center{
     margin: 0;
+ }
+ .legend{
+    text-align: center;
+ }
+ a:hover{
+    background-color: green;
+    color: white;
+    width: 100%;
  }
